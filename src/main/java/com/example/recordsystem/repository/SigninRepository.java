@@ -15,7 +15,7 @@ public class SigninRepository {
     public Map<String, Object> findById(String id) {
 
         // SELECT文
-        String query = "SELECT" + " * " + "FROM user" + " " + "WHERE id=?";
+        String query = "SELECT" + " * " + "FROM users" + " " + "WHERE id=?";
 
         // 検索実行
         Map<String, Object> user = jdbcTemplate.queryForMap(query);
