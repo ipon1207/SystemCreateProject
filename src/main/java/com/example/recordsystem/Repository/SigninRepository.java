@@ -1,4 +1,4 @@
-package com.example.recordsystem.Repository;
+package com.example.recordsystem.repository;
 
 public class SigninRepository {
     
