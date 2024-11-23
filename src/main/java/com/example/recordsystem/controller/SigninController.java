@@ -19,7 +19,7 @@ public class SigninController {
     @GetMapping("/user/signin")
     public String getSignin() {
         // signin.htmlに画面遷移
-        return "signin";
+        return "/user/signin";
     }
 
     @PostMapping("/user/db")

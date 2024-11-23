@@ -22,10 +22,12 @@ public class SigninService {
 
         // Mapから値を取得
         String userId = (String) map.get("id");
+        String name = (String) map.get("name");
 
         // Userクラスに値をセット
         User user = new User();
         user.setUserId(userId);
+        user.setUserName(name);
 
         return user;
     }
