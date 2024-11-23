@@ -16,7 +16,7 @@ public class SigninController {
     @Autowired
     private SigninService service;
 
-    @GetMapping("/user/signin")
+    @GetMapping("/")
     public String getSignin() {
         // signin.htmlに画面遷移
         return "/user/signin";
