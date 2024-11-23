@@ -14,6 +14,8 @@ public class SignupController {
 
     @GetMapping("/user/signin")
     public String getSignup() {
+        
+        // signup.htmlに画面遷移
         return "user/signup";
     }
 }
