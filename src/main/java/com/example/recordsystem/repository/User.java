@@ -3,6 +3,6 @@ package com.example.recordsystem.repository;
 import lombok.Data;
 
 @Data
-public class user {
+public class User {
     private String userId;
 }
