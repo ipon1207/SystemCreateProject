@@ -5,8 +5,8 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.recordsystem.model.User;
 import com.example.recordsystem.repository.SigninRepository;
-import com.example.recordsystem.repository.User;
 
 @Service
 public class SigninService {
