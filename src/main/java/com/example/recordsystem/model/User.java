@@ -30,11 +30,11 @@ public class User {
     private String mail;
 
     @NotNull
-    @Column(name = "name")
-    private String name;
+    @Column(name = "user_name")
+    private String userName;
 
-    @Column(name = "group_id")
-    private Integer groupId; // フィールド名をキャメルケースに変更
+    @Column(name = "group_name")
+    private Integer groupName; // フィールド名をキャメルケースに変更
 
     @NotNull
     @Column(name = "created_at")
