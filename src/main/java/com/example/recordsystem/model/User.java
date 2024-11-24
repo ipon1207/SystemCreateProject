@@ -33,10 +33,6 @@ public class User {
     @Column(name = "name")
     private String name;
 
-    @NotNull
-    @Column(name = "age")
-    private Integer age;
-
     @Column(name = "group_id")
     private Integer groupId; // フィールド名をキャメルケースに変更
 
